@@ -369,7 +369,7 @@ LINUXINCLUDE    := \
 
 KBUILD_CPPFLAGS := -D__KERNEL__
 
-GEN_OPT_FLAGS := $(call cc-option,-march=armv7-a,) \
+GEN_OPT_FLAGS := \
         -g0 \
         -DNDEBUG \
         -fomit-frame-pointer \
